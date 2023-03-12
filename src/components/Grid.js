@@ -133,7 +133,7 @@ export default function Grid() {
             </Button>
         </div>
         {gridElements}
-        {(winner || isDraw) && <div>
+        <div>
             <h1>
                 {winner && <span className='sb-text-secondary'>
                     Winner is {winner}
@@ -143,10 +143,7 @@ export default function Grid() {
                     DRAW
                 </span>}
             </h1>
-            <Button variant="contained" color="primary" onClick={resetGame}>
-                Restart Game
-            </Button>
         </div>
-        }
+
     </div>;
 }
