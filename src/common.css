@@ -1,0 +1,32 @@
+.sb-grid-card {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    display: inline-block;
+    line-height: 70px;
+    font-size: 30px;
+}
+
+.sb-text-primary {
+    color: blueviolet;
+}
+
+.sb-text-secondary {
+    color: rgb(0, 200, 150);
+}
+
+.sb-player1-bg {
+    background-color: rgba(240, 160, 32, 0.16) !important;
+}
+
+.sb-player2-bg {
+    background-color: rgba(61, 132, 168, 0.16) !important;
+}
+
+.sb-winning-line-bg {
+    background-color: rgba(117, 255, 192, 0.16) !important;
+}
+
+.sb-margin-bottom-10 {
+    margin-bottom: 10px;
+}
